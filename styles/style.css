@@ -258,8 +258,36 @@
   font-weight: 400;
 }
 
-.about_column {
+.about__column {
   display: flex;
   gap: 25px;
   flex-direction: column;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: start;
+  padding: 180px 50px 90px;
+}
+
+.footer__menu-list {
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+  list-style: none;
+}
+
+.footer__social-list-item {
+  display: flex;
+  gap: 45px;
+  list-style: none;
+}
+
+.footer__social-icon {
+  width: 50px;
+  height: 48px;
 }
